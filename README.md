@@ -13,11 +13,11 @@ Alternative installation is possible without local dependencies relying on [Dock
 
 Clone the repository
 
-    git clone git@github.com:gothinkster/laravel-realworld-example-app.git
+    git clone https://github.com/Maedeh88/order-delay.git
 
 Switch to the repo folder
 
-    cd laravel-realworld-example-app
+    cd order-delay
 
 Install all the dependencies using composer
 
@@ -73,17 +73,7 @@ docker-compose exec php php artisan db:seed
 docker-compose exec php php artisan serve --host=0.0.0.0
 ```
 
-The api can be accessed at [http://localhost:8000/api](http://localhost:8000/api).
-
-## API Specification
-
-This application adheres to the api specifications set by the [Thinkster](https://github.com/gothinkster) team. This helps mix and match any backend with any other frontend without conflicts.
-
-> [Full API Spec](https://github.com/gothinkster/realworld/tree/master/api)
-
-More information regarding the project can be found here https://github.com/gothinkster/realworld
-
-----------
+The api can be accessed at [http://localhost:8000/](http://localhost:8000/).
 
 
 
