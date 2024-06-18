@@ -35,4 +35,5 @@ class QueueDelayController extends Controller
         $order = $this->orderRepository->getOrder($result);
         return response()->json(['data' => $order], 200);
     }
+
 }
